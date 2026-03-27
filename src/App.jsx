@@ -5,6 +5,9 @@ import './App.css'
 import { Suspense } from 'react'
 import Friends from './friends'
 import Posts from './post'
+import CountBtn from './countBtn'
+import TextVisibility from './TextVisibility'
+import Players from './players'
 
 
 
@@ -39,6 +42,11 @@ function App() {
 
   return (
     <>
+    <Players></Players>
+
+    <TextVisibility></TextVisibility>
+
+    <CountBtn></CountBtn>
 
     <Suspense fallback={<h1>Posts are coming here......</h1>}>
       <Posts postsProimise={postsProimise}></Posts>

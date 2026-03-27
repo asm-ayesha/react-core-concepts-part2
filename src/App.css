@@ -5,3 +5,18 @@
     border-radius: 20px;
     color: red;
 }
+
+
+.count{
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.countBtn{
+    margin: 3px;
+    padding: 5px;
+    
+}
